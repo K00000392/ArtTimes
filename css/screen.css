@@ -101,12 +101,10 @@ header span.logo {
 }
 .ads {
     background-color: #000;
-    padding-left: 120px;
 }
 .ads img {
-    width:60%;
-    height:60%;
-    margin-left: 160px;
+    width:70%;
+    margin-left: 180px;
 }
 .main-title {
     text-align: center;
@@ -416,7 +414,7 @@ footer a:hover {
         height:500px;}
     h1 {font-size: 5.5em;padding-top: 220px; }
     #source { font-size: 2em;}
-        
+    .ads img {width:75%; margin-left: 130px;}   
     /* Section exhibitons */
     section.exhibitions img {width:100%;}
    section.exhibitions article.news_pinkest {float:left; width:100%; padding:0 15px 0 0;} 
@@ -438,7 +436,7 @@ footer a:hover {
     h1 {font-size: 4.9em;padding-top: 180px;}
     h2{font-size: 1.4em;}
      #source { font-size: 1.9em;}
-   
+    .ads img {width:75%; margin-left: 100px;}   
     
     /* Section exhibitons */
      section.exhibitions article p {font-size: .9em; padding-right: 30px;}
@@ -464,8 +462,8 @@ footer a:hover {
     h2{font-size: 1.3em;}
    
     #source { font-size: 1.6em;}
-    .ads img {margin-left: 60px;  }
-    ads {padding-left: 30px;}
+    .ads img {width:100%; margin-left: 0px;  }
+    
     
      a.btn {font-size: .9em;}
      nav > ul {padding-left: 10px;} 
@@ -478,9 +476,6 @@ footer a:hover {
      #source { font-size: 1.1em;}
      header{
     height:305px; background: url(../img/Banner_710.jpg) no-repeat center bottom; position: relative;}
-    
-   
-   
 
 }
 
@@ -568,8 +563,8 @@ footer a:hover {
      h1 {font-size: 3em;}
    
      #source { font-size: 1em;}
-    
-    .ads img { padding: 0px; width:100%; }
+    ads {padding-left: 0px; margin-left: 0px;}
+    .ads img { clear:both; 0px; width:100%; }
     
     
     
@@ -589,7 +584,7 @@ footer a:hover {
         text-shadow: 1px 1px #000;
     }
     section.main aside .content.top-picks {
-       background-size: 100%;  
+       background-size: 100% 100%;  
     }
     section.main aside .content.fernard {
        background-size: 100%; 
